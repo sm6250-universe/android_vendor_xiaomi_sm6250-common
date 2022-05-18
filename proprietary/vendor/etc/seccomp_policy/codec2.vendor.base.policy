@@ -1,5 +1,9 @@
+<<<<<<< HEAD:proprietary/vendor/etc/seccomp_policy/codec2.vendor.base.policy
 ###################################################################################################
 # Copyright (c) 2020 Qualcomm Technologies, Inc.
+=======
+# Copyright (c) 2020-2021 Qualcomm Technologies, Inc.
+>>>>>>> 9a5c5af (miatoll: Update blobs from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0):proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 ###################################################################################################
@@ -52,6 +56,7 @@ nanosleep: 1
 setpriority: 1
 set_tid_address: 1
 getdents64: 1
+<<<<<<< HEAD:proprietary/vendor/etc/seccomp_policy/codec2.vendor.base.policy
 readlinkat: 1
 readlink: 1
 read: 1
@@ -87,3 +92,7 @@ geteuid32: 1
 getgid32: 1
 getegid32: 1
 getgroups32: 1
+=======
+dup: 1
+mremap:1
+>>>>>>> 9a5c5af (miatoll: Update blobs from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0):proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy
